@@ -1,0 +1,45 @@
+<app-navbar></app-navbar>
+<body>
+  <form name="Form" id="form" onsubmit="event.preventDefault(); formsubmit();">
+    <div class="container mt-5">
+      <div class="text-center">
+        <h1><strong>CUSTOMER DETAILS</strong></h1>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-6 mt-4">
+          <label for="">First Name</label>
+          <input class="form-control" type="text" name="firstname" id="Firstname" placeholder="Enter First Name">
+          <div class="error" id="Ferror"></div>
+        </div>
+        <div class="col-md-6 mt-4">
+          <label for="">Last Name</label>
+          <input class="form-control" type="text" name="lastname" id="Lastname" placeholder="Enter Last Name">
+          <div class="error" id="Lerror"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mt-4">
+          <label for="">Email</label>
+          <input class="form-control" type="email" name="email" id="Email" placeholder=" Enter Email Id">
+          <div class="error" id="Eerror"></div>
+        </div>
+        <div class="col-md-6 mt-4">
+          <label for="">Mobile number</label>
+          <input class="form-control" type="text" name="mobilenumber" id="Mobilenumber"
+            placeholder="Enter Mobile Number">
+          <div class="error" id="Merror"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mt-4">
+          <label for="">Address</label>
+          <input class="form-control address" type="text" name="address" id="Address" placeholder="Enter Address">
+          <div class="error" id="Aerror"></div>
+        </div>
+      </div>
+      <div class="mt-4">
+        <input type="submit" class="btn btn-success add-btn" id="change" value="Submit">
+      </div>
+    </div>
+  </form>
+</body>
